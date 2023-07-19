@@ -8,32 +8,46 @@
     </title>
     <link rel="stylesheet" href="./assets/styles/aside.css">
     <link rel="stylesheet" href="./assets/styles/global.css">
+    <link rel="stylesheet" href="assets/styles/tasks.css">
 </head>
 <body id="container">
     <aside id="aside">
         <nav class="aside-nav-1">
             <ul>
-                <li class="logo"><img src="icons/logo.png" alt="logo"></li>
-                <li><a href=""><img src="icons/graphics.png" alt="graphics"></a></li>
-                <li><a href=""><img src="icons/files.png" alt="files"></a></li>
-                <li><a href=""><img src="icons/circle.png" alt="circle"></a></li>
-                <li><a href=""><img src="icons/folder.png" alt="folder"></a></li>
-                <li><a href=""><img src="icons/idea.png" alt="idea"></a> </li>   
+                <li class="logo"><img src="./assets/img/aside/logo.png" alt="logo"></li>
+                <li><a href=""><img src="./assets/img/aside/graphics.png" alt="graphics"></a></li>
+                <li><a href=""><img src="./assets/img/aside/files.png" alt="files"></a></li>
+                <li><a href=""><img src="./assets/img/aside/circle.png" alt="circle"></a></li>
+                <li><a href=""><img src="./assets/img/aside/folder.png" alt="folder"></a></li>
+                <li><a href=""><img src="./assets/img/aside/idea.png" alt="idea"></a> </li>   
             </ul>
         </nav>
         <nav class="aside-nav-2">
             <ul>
-                <li><a href=""><img src="icons/notification.png" alt="notification"></a></li>
-                <li><a href=""><img src="icons/graphics.png" alt="graphics"></a></li>
-                <li class="user-image"><img src="icons/user.png" alt="user-image"></li>
+                <li><a href=""><img src="./assets/img/aside/notification.png" alt="notification"></a></li>
+                <li><a href=""><img src="./assets/img/aside/graphics.png" alt="graphics"></a></li>
+                <li class="user-image"><img src="./assets/img/aside/user.png" alt="user-image"></li>
                     <p class="vertical-text">User Name</p>
                 </li>
-                <li><a href=""><img src="icons/adjuster.png" alt="adjuster"></a></li>
+                <li><a href=""><img src="./assets/img/aside/adjuster.png" alt="adjuster"></a></li>
             </ul>                            
         </nav>     
     </aside>
     <main id="content">
-
+        <div class="todo-app">
+            <h2>Tasks</h2> 
+            <div class="row">
+                <input type="text" id="input-box" placeholder="adicione sua tasks">
+                    <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                      </svg></button>
+            </div>
+            <ul>
+                <li class="task"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti laudantium, deleniti ullam neque debitis repellat tempora magni sint adipisci quaerat ut quam beatae expedita, perferendis a ducimus, incidunt natus numquam? <span>Duen in Today </span>
+                </li> 
+            </ul>
+        </div>
+    </div>
     </main>
 </body>
 </html>
