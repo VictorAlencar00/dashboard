@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/styles/aside.css">
     <link rel="stylesheet" href="./assets/styles/global.css">
     <link rel="stylesheet" href="assets/styles/tasks.css">
+    <link rel="stylesheet" href="assets/styles/portfolio.css">
 </head>
 <body id="container">
     <aside id="aside">
@@ -34,21 +35,68 @@
         </nav>     
     </aside>
     <main id="content">
-        <div class="todo-app">
-            <h2>Tasks</h2> 
-            <div class="row">
-                <input type="text" id="input-box" placeholder="adicione sua tasks">
-                    <button>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
-                      </svg>
-                    </button>
+        <section class="tasks">
+            <div class="todo-app">
+                <h2>Tasks</h2> 
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="adicione sua tasks">
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                          </svg>
+                        </button>
+                </div>
+                <ul>
+                    <li class="task"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti laudantium, deleniti ullam neque debitis repellat tempora magni sint adipisci quaerat ut quam beatae expedita, perferendis a ducimus, incidunt natus numquam? <span>Duen in Today </span>
+                    </li> 
+                </ul>
             </div>
-            <ul>
-                <li class="task"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti laudantium, deleniti ullam neque debitis repellat tempora magni sint adipisci quaerat ut quam beatae expedita, perferendis a ducimus, incidunt natus numquam? <span>Duen in Today </span>
-                </li> 
-            </ul>
-        </div>
+        </section>
+        <section class="portfolios">
+        <article class="section1-portfolio">
+            <nav class="cabecalho-portfolio">
+                <div class="menu-portfolio-esquerda">
+                    <a href="#"><h1 class="h1-portfolio">Portfolios</h1></a>
+                    <a href="#" class="vertodosportfolio">Ver todos</a>
+                </div>
+                
+                <div class="menu-portfolio-direita">
+                    <a href="#"><img src="./assets/icons-port/ico.png" alt="#####"></a>
+                    <a href="#" class="ordenar-portfolio">Ordenar</a>
+                    <a href="#"><img src="./assets/icons-port/ico2.png" alt="#####"></a>
+                </div>
+            </nav>
+        </article>
+        <article class="corpo-portfolio">
+            <table class="corpo-portfolio-table">
+                <tr  class="identificadores-portfolios">
+                    <td>Nomes</td>
+                    <td>Parcelas</td>
+                    <td>Contratos ativos</td>
+                </tr>
+                    <tr class="conteudo-portfolios">
+                        <td>M&A Portfolio - Century Mortgage</td>
+                        <td>72 / 360</td>
+                        <td>153 / 400</td>
+                    </tr>
+                    <tr class="conteudo-portfolios">
+                        <td>M&A Portfolio - Century Mortgage</td>
+                        <td>72 / 360</td>
+                        <td>153 / 400</td>
+                    </tr>
+                    <tr class="conteudo-portfolios">
+                        <td>M&A Portfolio - Century Mortgage</td>
+                        <td>72 / 360</td>
+                        <td>153 / 400</td>
+                    </tr>
+                    <tr class="conteudo-portfolios">
+                        <td>M&A Portfolio - Century Mortgage</td>
+                        <td>72 / 360</td>
+                        <td>153 / 400</td>
+                    </tr>
+            </table>
+        </article>
+    </section>
     </div>
     </main>
 </body>

@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,13 +6,16 @@
 #container {
     display: flex;
     background: linear-gradient(-30deg, #0c6f82, #6ac963);
+    max-height: 100vh;
 }
 #aside {
     width: 80px;
 }
 #content {
+    overflow-x: hidden;
     width: calc(100vw - 80px);
     background-color: aliceblue;
     margin: 20px;
     border-radius: 40px;
+    padding: 20px 40px;
 }

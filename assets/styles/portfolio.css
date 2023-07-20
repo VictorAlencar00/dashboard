@@ -1,12 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-}
 .portfolios {
-    float: right;
-    position: fixed;
     bottom: 0px;
     left: 100px;
 }
@@ -23,7 +15,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 12px;
-    position: fixed;
     bottom: 460px;
     left: 115px;
     width: 770px;
