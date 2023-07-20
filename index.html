@@ -6,35 +6,77 @@
     <title>
         Dashboard
     </title>
-    <link rel="stylesheet" href="./assets/styles/aside.css">
-    <link rel="stylesheet" href="./assets/styles/global.css">
-    <link rel="stylesheet" href="assets/styles/tasks.css">
-    <link rel="stylesheet" href="assets/styles/portfolio.css">
+    <link rel="stylesheet" href="./src/assets/styles/aside.css">
+    <link rel="stylesheet" href="./src/assets/styles/global.css">
+    <link rel="stylesheet" href="./src/assets/styles/tasks.css">
+    <link rel="stylesheet" href="./src/assets/styles/portfolio.css">
+    <link rel="stylesheet" href="./src/assets/styles/file.css">
 </head>
 <body id="container">
     <aside id="aside">
         <nav class="aside-nav-1">
             <ul>
-                <li class="logo"><img src="./assets/img/aside/logo.png" alt="logo"></li>
-                <li><a href=""><img src="./assets/img/aside/graphics.png" alt="graphics"></a></li>
-                <li><a href=""><img src="./assets/img/aside/files.png" alt="files"></a></li>
-                <li><a href=""><img src="./assets/img/aside/circle.png" alt="circle"></a></li>
-                <li><a href=""><img src="./assets/img/aside/folder.png" alt="folder"></a></li>
-                <li><a href=""><img src="./assets/img/aside/idea.png" alt="idea"></a> </li>   
+                <li class="logo" class="a-aside"><img src="./src/assets/img/aside/logo.png" alt="logo"></li>
+                <li><a href="" class="a-aside"><img src="./src/assets/img/aside/graphics.png" alt="graphics"></a></li>
+                <li><a href="" class="a-aside"><img src="./src/assets/img/aside/files.png" alt="files"></a></li>
+                <li><a href="" class="a-aside"><img src="./src/assets/img/aside/circle.png" alt="circle"></a></li>
+                <li><a href="" class="a-aside"><img src="./src/assets/img/aside//folder.png" alt="folder"></a></li>
+                <li><a href="" class="a-aside"><img src="./src/assets/img/aside/idea.png" alt="idea"></a> </li>   
             </ul>
         </nav>
         <nav class="aside-nav-2">
             <ul>
-                <li><a href=""><img src="./assets/img/aside/notification.png" alt="notification"></a></li>
-                <li><a href=""><img src="./assets/img/aside/graphics.png" alt="graphics"></a></li>
-                <li class="user-image"><img src="./assets/img/aside/user.png" alt="user-image"></li>
+                <li><a href="" class="a-aside"><img src="./src/assets/img/aside/notification.png" alt="notification"></a></li>
+                <li><a href="" class="a-aside"><img src="./src/assets/img/aside/graphics.png" alt="graphics"></a></li>
+                <li class="user-image"><img src="./src/assets/img/aside/user.png" alt="user-image"></li>
                     <p class="vertical-text">User Name</p>
                 </li>
-                <li><a href=""><img src="./assets/img/aside/adjuster.png" alt="adjuster"></a></li>
+                <li><a href="" class="a-aside"><img src="./src/assets/img/aside/adjuster.png" alt="adjuster"></a></li>
             </ul>                            
         </nav>     
     </aside>
     <main id="content">
+        <article class="file-organizer">
+            <section class="file">
+                <div class="cabeca">
+                    <p>External</p>
+                    <div class="comp">
+                        <img src="./src/assets/img/file/compartilhar.png" alt="compartilhar">
+                        <p class="Sharedtext">Shared</p>
+                    </div>
+                </div>
+                <h1 class="h1-file">1470 Raintree Boulevard</h1>
+                <p class="p-file">Good Home Mortgage</p>
+                <div class="pending">
+                    <p>Pending</p>
+                </div>
+                <div class="barra-de-progresso">
+                    <div class="barra-cinza">
+                        <div class="barra-azul"></div>
+                    </div>
+                    <p class="xofx">24 of 45</p>
+                </div>
+            </section><section class="file">
+                <div class="cabeca">
+                    <p>External</p>
+                    <div class="comp">
+                        <img src="./src/assets/img/file/compartilhar.png" alt="compartilhar">
+                        <p class="Sharedtext">Shared</p>
+                    </div>
+                </div>
+                <h1 class="h1-file">1470 Raintree Boulevard</h1>
+                <p class="p-file">Good Home Mortgage</p>
+                <div class="pending">
+                    <p>Pending</p>
+                </div>
+                <div class="barra-de-progresso">
+                    <div class="barra-cinza">
+                        <div class="barra-azul"></div>
+                    </div>
+                    <p class="xofx">24 of 45</p>
+                </div>
+            </section>
+        </article>
         <section class="tasks">
             <div class="todo-app">
                 <h2>Tasks</h2> 
@@ -53,51 +95,50 @@
             </div>
         </section>
         <section class="portfolios">
-        <article class="section1-portfolio">
-            <nav class="cabecalho-portfolio">
-                <div class="menu-portfolio-esquerda">
-                    <a href="#"><h1 class="h1-portfolio">Portfolios</h1></a>
-                    <a href="#" class="vertodosportfolio">Ver todos</a>
-                </div>
-                
-                <div class="menu-portfolio-direita">
-                    <a href="#"><img src="./assets/icons-port/ico.png" alt="#####"></a>
-                    <a href="#" class="ordenar-portfolio">Ordenar</a>
-                    <a href="#"><img src="./assets/icons-port/ico2.png" alt="#####"></a>
-                </div>
-            </nav>
-        </article>
-        <article class="corpo-portfolio">
-            <table class="corpo-portfolio-table">
-                <tr  class="identificadores-portfolios">
-                    <td>Nomes</td>
-                    <td>Parcelas</td>
-                    <td>Contratos ativos</td>
-                </tr>
-                    <tr class="conteudo-portfolios">
-                        <td>M&A Portfolio - Century Mortgage</td>
-                        <td>72 / 360</td>
-                        <td>153 / 400</td>
+            <article class="section1-portfolio">
+                <nav class="cabecalho-portfolio">
+                    <div class="menu-portfolio-esquerda">
+                        <a href="#" class="a-portfolio"><h1 class="h1-portfolio">Portfolios</h1></a>
+                        <a href="#" class="vertodosportfolio">Ver todos</a>
+                    </div>
+                    
+                    <div class="menu-portfolio-direita">
+                        <a href="#" class="a-portfolio"><img src="./src/assets/img/portfolio/ico.png" alt="#####"></a>
+                        <a href="#" class="ordenar-portfolio">Ordenar</a>
+                        <a href="#" class="a-portfolio"><img src="./src/assets/img/portfolio/ico2.png" alt="#####"></a>
+                    </div>
+                </nav>
+            </article>
+            <article class="corpo-portfolio">
+                <table class="corpo-portfolio-table">
+                    <tr  class="identificadores-portfolios">
+                        <td>Nomes</td>
+                        <td>Parcelas</td>
+                        <td>Contratos ativos</td>
                     </tr>
-                    <tr class="conteudo-portfolios">
-                        <td>M&A Portfolio - Century Mortgage</td>
-                        <td>72 / 360</td>
-                        <td>153 / 400</td>
-                    </tr>
-                    <tr class="conteudo-portfolios">
-                        <td>M&A Portfolio - Century Mortgage</td>
-                        <td>72 / 360</td>
-                        <td>153 / 400</td>
-                    </tr>
-                    <tr class="conteudo-portfolios">
-                        <td>M&A Portfolio - Century Mortgage</td>
-                        <td>72 / 360</td>
-                        <td>153 / 400</td>
-                    </tr>
-            </table>
-        </article>
-    </section>
-    </div>
+                        <tr class="conteudo-portfolios">
+                            <td>M&A Portfolio - Century Mortgage</td>
+                            <td>72 / 360</td>
+                            <td>153 / 400</td>
+                        </tr>
+                        <tr class="conteudo-portfolios">
+                            <td>M&A Portfolio - Century Mortgage</td>
+                            <td>72 / 360</td>
+                            <td>153 / 400</td>
+                        </tr>
+                        <tr class="conteudo-portfolios">
+                            <td>M&A Portfolio - Century Mortgage</td>
+                            <td>72 / 360</td>
+                            <td>153 / 400</td>
+                        </tr>
+                        <tr class="conteudo-portfolios">
+                            <td>M&A Portfolio - Century Mortgage</td>
+                            <td>72 / 360</td>
+                            <td>153 / 400</td>
+                        </tr>
+                </table>
+            </article>
+        </section>
     </main>
 </body>
 </html>
