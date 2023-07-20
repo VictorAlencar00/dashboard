@@ -2,16 +2,21 @@ aside{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    gap: 20vw;
-    margin-left: 3px;
+    /* width: 5%; */
+    align-items: center;
+}
+.aside-nav-1, .aside-nav-2{
+  align-items: center;
+
 }
 .aside-nav-2{
-    position: absolute;
-    align-items: center;
-    bottom: 0; 
-    width: 80px;
-    padding-bottom: 30px;
+    /* position: absolute; */
+    /* align-items: center; */
+    /* bottom: 0;  */
+    /* width: 80px; */
+    /* padding-bottom: 30px; */
 }
+
 .logo{
     margin: 30px 0px 30px 0px;
 }
@@ -21,23 +26,22 @@ aside{
     width: 35px;
     height: 35px;
 }
-a {
+.a-aside {
     filter: invert();
 }
-ul, li{
+.ul-aside, .li-aside{
     display: flex;
     flex-direction: column;
-    padding: 0;
     list-style: none;
     gap: 20px;
     align-items: center;
 }
-ul li a:hover{
+.a-aside:hover{
     filter: invert(0);
     background-color: white;
     border-radius: 5px;
 }
-li, img{
+.li-aside img, .user-image img{
     width: 30px;
 }
 .vertical-text{
