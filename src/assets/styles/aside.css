@@ -6,7 +6,6 @@ aside{
     align-items: center;
 }
 .aside-nav-1, .aside-nav-2{
-    /* margin: 20px auto; */
     display: flex;
     justify-content: center;
     width: 80px;
@@ -49,8 +48,3 @@ aside{
     font-family: sans-serif;
     writing-mode: vertical-lr;
 }
-/* 
-@media (height < xxx) and ()
-@media (width < xxx)
-@media screen {
-} */
