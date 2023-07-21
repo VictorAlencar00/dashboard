@@ -2,23 +2,39 @@ aside{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    /* width: 5%; */
+    width: 80px;
     align-items: center;
 }
 .aside-nav-1, .aside-nav-2{
-  align-items: center;
-
-}
-.aside-nav-2{
-    /* position: absolute; */
+    display: flex;
+    justify-content: center;
     /* align-items: center; */
-    /* bottom: 0;  */
-    /* width: 80px; */
-    /* padding-bottom: 30px; */
+    width: 80px;
+    height: 100%;
 }
-
-.logo{
-    margin: 30px 0px 30px 0px;
+.ul-aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    width: 80px;
+}
+.li-aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-aside{
+    filter: invert();
+    /* border: red 1px solid; */
+    width: 30px;
+}
+.a-aside:hover{
+    filter: invert(0);
+    background-color: white;
+    border-radius: 5px;
 }
 .user-image{
     align-items: center;
@@ -26,23 +42,9 @@ aside{
     width: 35px;
     height: 35px;
 }
-.a-aside {
-    filter: invert();
-}
-.ul-aside, .li-aside{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    gap: 20px;
-    align-items: center;
-}
-.a-aside:hover{
-    filter: invert(0);
-    background-color: white;
-    border-radius: 5px;
-}
 .li-aside img, .user-image img{
     width: 30px;
+    /* height: 30px; */
 }
 .vertical-text{
     filter: invert();
