@@ -1,0 +1,26 @@
+div.retangulo {
+    background-color: white;
+    width: 280px;
+    height: 100px;
+    border: 0px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0,0, 0.5);
+}
+
+div img{
+    width: 240px;
+   padding: 10px;
+}
+  P { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 14px; line-height: 0em;
+    letter-spacing:3px; word-spacing: 10px;
+    padding: 0px;
+    
+  }
+
+  h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  }
