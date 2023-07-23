@@ -2,18 +2,36 @@ aside{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    gap: 20vw;
-    margin-left: 3px;
-}
-.aside-nav-2{
-    position: absolute;
-    align-items: center;
-    bottom: 0; 
     width: 80px;
-    padding-bottom: 30px;
+    align-items: center;
 }
-.logo{
-    margin: 30px 0px 30px 0px;
+.aside-nav-1, .aside-nav-2{
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 100%;
+}
+.ul-aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    width: 80px;
+}
+.li-aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-aside{
+    filter: invert();
+    width: 30px;
+}
+.a-aside:hover{
+    filter: invert(0);
+    background-color: white;
+    border-radius: 5px;
 }
 .user-image{
     align-items: center;
@@ -39,6 +57,7 @@ ul li a:hover{
 }
 li, img{
     width: 30px;
+    /* height: 30px; */
 }
 .vertical-text{
     filter: invert();
