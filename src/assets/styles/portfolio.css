@@ -1,6 +1,11 @@
+.portfolios * {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .portfolios {
-    bottom: 0px;
-    left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .h1-portfolios {
     font-weight: bold;
@@ -63,7 +68,7 @@
     white-space: nowrap;
 }
 tr.conteudo-portfolios:hover td {
-    background-color: #c0ffbb;
+    background-color: #bfffbb41;
 }
 tr.conteudo-portfolios:hover {
     box-shadow: 0 10px 30px rgba(0, 43, 2, 0.336);

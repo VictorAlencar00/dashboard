@@ -1,0 +1,75 @@
+.file-organizer{
+    display: flex;
+    justify-content: center;
+}
+.file-organizer > :hover {
+    background-image: url(../img/file/file-colored2.png);
+}
+.file {
+    width: 225px;
+    height: 225px;
+    background-image:url(../src/assets/img/file/file.png);
+}
+.cabeca {
+    margin: 30px 30px -20px 30px;
+    max-width: 225px;
+    display: flex;
+    justify-content: space-between;
+}
+.comp img {
+    align-items: center;
+    width: 12px;
+    height: 12px;
+}
+.comp {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.Sharedtext {
+    font-weight: bold;
+}
+.h1-file {
+    padding: 30px;
+    font-size: 16px;
+    max-width: 190px;
+    flex-wrap: wrap;
+}
+.p-file {
+    color: gray;
+    font-size: 15px;
+    margin: -20px 30px;
+}
+.pending {
+    font-size: 13px;
+    margin: 30px 0 0 30px ;
+    padding-left: 10px;
+    padding-right: 50px;
+    background-color: rgb(245, 208, 140);
+    border-radius: 2rem;
+    max-width: 50px;
+}
+.barra-de-progresso {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+.barra-cinza {
+    background-color: lightgray;
+    border-radius: 2rem;
+    margin: 20px;
+    margin-left: 25px;
+    width: 90px;
+    height: 6px;
+}
+.barra-azul {
+    background-color: #0C7086;
+    border-radius: 2rem;
+    width: 40px;
+    height: 6px;
+}
+.xofx {
+    font-size: 12px;
+}

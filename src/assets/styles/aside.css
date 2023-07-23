@@ -21,7 +21,7 @@ aside{
     width: 35px;
     height: 35px;
 }
-a {
+.a-aside {
     filter: invert();
 }
 ul, li{
